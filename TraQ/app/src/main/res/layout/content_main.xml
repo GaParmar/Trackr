@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackgroundFloating"
+    android:orientation="vertical"
+    tools:context="com.gaparmar.traq.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:paddingRight="20dp"
+        android:paddingLeft="50dp"
+        android:id="@+id/titleButton"
+        android:gravity="fill_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/ic_menu_preferences"
+
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:background="#9DB3F1"
+        android:fontFamily="sans-serif"
+        android:text="Traq"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:background="#F4BB72"
+        android:drawableLeft="@drawable/bluetooth"
+
+        android:drawableRight="@drawable/ic_find_next_mtrl_alpha"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Watch"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:background="#FF83A7"
+        android:drawableLeft="@drawable/bluetooth"
+
+        android:drawableRight="@drawable/ic_find_next_mtrl_alpha"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Backpack"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/ic_find_next_mtrl_alpha"
+        android:drawableLeft="@drawable/bluetooth"
+
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:background="#7CECEE"
+        android:text="Phone"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <Button
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/ic_find_next_mtrl_alpha"
+        android:drawableLeft="@drawable/bluetooth"
+        
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:background="#B0D875"
+        android:text="Wallet"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

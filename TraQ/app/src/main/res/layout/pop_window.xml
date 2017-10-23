@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="275dp"
+    android:background="#9DB3F1"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:gravity="center"
+        android:text="Phone Number"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/secret"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/phoneNum"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="Secret Word"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/phoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="##########"
+        android:inputType="number"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Settings"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/secWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="shhhhhh...."
+        android:inputType="textVisiblePassword"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/secret"
+        android:layout_alignStart="@+id/phoneNum" />
+
+    <Button
+        android:id="@+id/closeBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secWord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="#FF83A7"
+        android:text="Close"
+        android:textColor="#ffffff" />
+</RelativeLayout>
